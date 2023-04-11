@@ -27,119 +27,113 @@
                     <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                 </div>
             </div>
-            <div>
-                <div>
-                    <strong>Album 2</strong>
-                </div>
-                <img src="bandphotos/cover2.png" width="160">
+            <div class="shop-item">
+                    <span class="shop-item-title">Album 2</span>
+                <img class="shop-item-image" src="bandphotos/cover2.png">
                 <div>
                     <span>$12.99</span>
-                    <button role="button">ADD TO CART</button>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                 </div>
             </div>
-            <div>
-                <div>
-                    <strong>Album 3</strong>
-                </div>
-                <img src="bandphotos/cover3.jpg" width="160">
-                <div>
-                    <span>$13.99</span>
-                    <button role="button">ADD TO CART</button>
+            <div class="shop-item">
+                    <span class="shop-item-title">Album 3</span>
+                <img class="shop-item-image" src="bandphotos/cover3.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$13.99</span>
+                    <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
                 </div>
             </div>
-            <div>
-                <div>
-                    <strong>Album 4</strong>
+            <div clas="shop-item">
+                    <span class="shop-item-title">Album 4</span>
+                <img class="shop-item-image" src="bandphotos/cover4.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$14.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                 </div>
-                <img src="bandphotos/cover4.jpg" width="160">
-                <div>
-                    <span>$14.99</span>
-                    <button role="button">ADD TO CART</button>
+            </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">MERCH</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">T-Shirt</span>
+                    <img class="shop-item-image" src="bandphotos/tshirt1.PNG">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Cofee Mug</span>
+                    <img class="shop-item-image" src="bandphotos/coffeemug1.PNG">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$4.99</span>
+                        <button class="btn btn-primary shoop-item-button" type="button">ADD TO CART</button>
                 </div>
             </div>
         </section>
 
-        <section>
-            <h1>MERCH</h1>
-            <div>
-                <div>
-                    <strong>T-Shirt</strong>
-                </div>
-                <img src="bandphotos/tshirt1.PNG" width="160">
-                <div>
-                    <span>$19.99</span>
-                    <button role="button">ADD TO CART</button>
-                </div>
+        <section class="container content-section">
+            <h1 class="section-header">CART</h1>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
             </div>
             <div>
-                <div>
-                    <strong>Cofee Mug</strong>
-                </div>
-                <img src="bandphotos/coffeemug1.PNG" width="160">
-                <div>
-                    <span>$4.99</span>
-                    <button role="button">ADD TO CART</button>
-                </div>
+                <div class="cart-row">
+                        <div class="cart-item cart-column">
+                            <img class="cart-item-image" src="bandphotos/tshirt1.PNG" width="100" height="100">
+                            <span class="cart-item-title">T Shirt</span>
+                        </div>
+                            <span class="cart-price cart-column"> $19.99</span>
+                            <div class="cart-quantity cart-column">
+                                <input class="cart-quantity-input" type="number" value="1">
+                                <button class="btn btn-danger" type="button">REMOVE</button>
+                            </div>
+                    </div>
+                    <div class="cart-row">
+                        <div class="cart-item cart-column">
+                            <img class="cart-item-image" src="bandphotos/cover3.jpg" width="100" height="100">
+                            <span class="cart-item-title">Album 3</span>
+                        </div>
+                        <span class="cart-price cart-column"> $13.99</span>
+                        <div class="cart-quantity cart-column">
+                            <input class="cart-quantity-input" type="number" value="2">
+                            <button class="btn btn-danger" type="button">REMOVE</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$39.97</span>
             </div>
-        </section>
-
-        <section>
-            <h1>CART</h1>
-            <div>
-                <strong>ITEM</strong>
-                &lt;&gt;
-                <strong>PRICE</strong>
-                &lt;&gt;
-                <strong>QUANTITY</strong>
-                &lt;&gt;
-            </div>
-            <div>
-                <img src="bandphotos/tshirt1.PNG" width="100">
-                <span>T Shirt</span>
-                &lt;&gt;
-                <span> $19.99</span>
-                &lt;&gt;
-                <input type="number" value="1">
-                <button role="button">REMOVE</button>
-            </div>
-
-            <div>
-                <img src="bandphotos/cover3.jpg" width="100">
-                <span>Album 3</span>
-                &lt;&gt;
-                <span> $13.99</span>
-                &lt;&gt;
-                <input type="number" value="2">
-                <button role="button">REMOVE</button>
-            </div>
-            <hr>
-            <div>
-                <strong>Total</strong>
-                <span>$39.97</span>
-            </div>
-            <div>
-                <button role="button">PURCHASE</button>
-            </div>
+                <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
         </section>        
-        <footer>
-            <h3>The Vessels</h3>
-            <ul>
-                <li>
-                    <a href="https://www.facebook.com/thevesselsband" target="blank">
-                        <img src="bandphotos/fb.PNG" width="40">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/watch?v=w_JvDu7Vbu0" target="blank">
-                        <img src="bandphotos/yt.PNG" width="40">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://web.whatsapp.com/" target="blank">
-                    <img src="bandphotos/wa.PNG" width="40">
-                    </a>
-                </li>
-            </ul>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">The Vessels</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.facebook.com/thevesselsband" target="blank">
+                            <img src="bandphotos/fb.PNG" width="40">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=w_JvDu7Vbu0" target="blank">
+                            <img src="bandphotos/yt.PNG" width="40">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://web.whatsapp.com/" target="blank">
+                        <img src="bandphotos/wa.PNG" width="40">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </footer>
+        </body>
+</html>
         </body>
 </html>
